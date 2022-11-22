@@ -111,26 +111,54 @@
 #     print(i)
 
 #Работа со строками
-text = 'сьешь еще этих мягких французких  булок'
-print(len(text)) #39
-print('еще' in text) #True
-print(text.isdigit()) #False
-print(text.islower()) #True
-print(text.replace('еще', 'ЕЩЕ')) #
+# text = 'сьешь еще этих мягких французких  булок'
+# print(len(text)) #39
+# print('еще' in text) #True
+# print(text.isdigit()) #False
+# print(text.islower()) #True
+# print(text.replace('еще', 'ЕЩЕ')) #
 
-for i in text:
-    print(i)
+# for i in text:
+#     print(i)
 
-text = 'сьешь еще этих мягких французких  булок'
-print(text)
-print(text[0]) #c
-print(text[1]) #ь
-print(text[len(text)-1]) #к
-print(text[-5])#б
-print(text[:])#print(text)
-print(text[:2]) #сь
-print(text[len(text)-2:]) #ок
-print(text[2:9]) #ешь еще
-print(text[6: - 18])# еще этих мягких
-print(text[0:len(text):6]) #сеикаил
-print(text[: : 6])#сеикаил
+# text = 'сьешь еще этих мягких французких  булок'
+# print(text)
+# print(text[0]) #c
+# print(text[1]) #ь
+# print(text[len(text)-1]) #к
+# print(text[-5])#б
+# print(text[:])#print(text)
+# print(text[:2]) #сь
+# print(text[len(text)-2:]) #ок
+# print(text[2:9]) #ешь еще
+# print(text[6: - 18])# еще этих мягких
+# print(text[0:len(text):6]) #сеикаил
+# print(text[: : 6])#сеикаил
+
+
+# #Списки
+
+# numbers = [1, 2, 3, 4, 5]
+# print(numbers) # [1, 2, 3, 4, 5]
+
+# numbers_range = list(range(1,6))
+# print(numbers_range) # [1, 2, 3, 4, 5]
+# numbers[0] = 10 
+# print(f'{len(numbers)} len') #5 len
+# print(numbers)#[10, 2, 3, 4, 5]
+
+# for i in numbers:
+#     i *= 2
+#     print(i) #[20, 4, 6, 8, 10]
+
+# print(numbers) #[10, 2, 3, 4, 5]
+
+def f(x):
+    if x == 1:
+        return 'целое' #str
+    elif x  == 2.3:
+        return 23 #int
+    else:
+        return #NoneType
+
+print(f(1))
